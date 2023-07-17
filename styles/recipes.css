@@ -1,0 +1,10 @@
+div {
+  text-align: center;
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+body {
+  background-color: bisque;
+}

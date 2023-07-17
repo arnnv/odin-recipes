@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/wallpaper.jpg");
+}
+
+.recipeList {
+  /* border: 3px solid red; */
+  width: 1500px;
+  margin: 300px auto;
+}
+
+.recipeList li {
+  display: inline-block;
+  border: thick double black;
+  background-color: antiquewhite;
+  list-style: none;
+  /* margin: auto; */
+  text-align: center;
+  color: black;
+  margin: 20px;
+  width: 400px;
+  height: 350px;
+  /* height: ; */
+  padding: 20px;
+}
+
+.recipeList div {
+  /* border: 1px solid blue; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: rgb(28, 34, 34);
+}
+
+.recipeList img {
+  display: block;
+  width: 300px;
+  height: auto;
+  /* padding: 20px; */
+  margin: 30px auto;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mainHeading {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 6ch;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: -200px;
+}
